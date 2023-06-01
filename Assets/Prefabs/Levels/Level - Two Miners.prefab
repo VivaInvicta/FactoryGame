@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5320071599598344044
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3584481371969598015, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: buildings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584481371969598015, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: buildings.Array.data[3]
+      value: 
+      objectReference: {fileID: 8177826851406998042}
+    - target: {fileID: 4857870906939275109, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_Name
+      value: Level - Two Miners
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5997776791054776789, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313581213232127418, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: miningDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313581213232127418, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: materialsConsumeCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773823572840944634, guid: 371888433e04b8c489a4034567672673, type: 3}
+      propertyPath: m_Name
+      value: Miner1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 371888433e04b8c489a4034567672673, type: 3}
+--- !u!4 &3152272687155187125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7091955141711567577, guid: 371888433e04b8c489a4034567672673, type: 3}
+  m_PrefabInstance: {fileID: 5320071599598344044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9154753103510463867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3152272687155187125}
+    m_Modifications:
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -13.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080074200106689416, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172300311134625897, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+      propertyPath: m_Name
+      value: Miner2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+--- !u!114 &8177826851406998042 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1040697926539972449, guid: 79eb6335260c30240998e96b7c0e75e7, type: 3}
+  m_PrefabInstance: {fileID: 9154753103510463867}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e7fb872500e3f4d9f34ac9a4320146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

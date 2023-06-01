@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b2015aaa02e62e468c653e9fcb49f6e, type: 3}
+  m_Name: market
+  m_EditorClassIdentifier: 
+  itemRewardConfigs:
+  - item: boer
+    reward: gold
+    rewardCost: 1
+    rewardCount: 1
+  - item: hammer
+    reward: gold
+    rewardCost: 2
+    rewardCount: 2
+  - item: pitchfork
+    reward: gold
+    rewardCost: 1
+    rewardCount: 1
