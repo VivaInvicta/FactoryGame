@@ -11,7 +11,7 @@ namespace FactoryGame.Gameplay
         public event Action<bool> ProductionStatusUpdated;
 
         [SerializeField]
-        private float miningDuration = 1f;
+        private float productionDuration = 1f;
 
         [SerializeField]
         private int materialsConsumeCount = 1;
@@ -42,7 +42,7 @@ namespace FactoryGame.Gameplay
             {
                 timePassed += deltaTime;
 
-                if (timePassed > miningDuration)
+                if (timePassed > productionDuration)
                 {
                     timePassed = 0;
                     ProductResource();
